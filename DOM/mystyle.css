@@ -1,0 +1,205 @@
+.rb:hover{
+opacity: 0.75;
+}
+.upb:hover{opacity: 0.75;}.db:hover{opacity: 0.75;}.lb:hover{opacity: 0.75;}
+
+.upb,.db,.lb,.rb{
+width: 40px;
+height: 40px;
+border: none;
+border-radius: 0px;
+}
+.upb{background: url(UP_ARROW.jpg) no-repeat center}.db{background: url(DOWN_ARROW.jpg) no-repeat center}.lb{background: url(LEFT_ARROW.jpg) no-repeat center}.rb{background: url(RIGHT_ARROW.jpg) no-repeat center}
+.buttonCellUp,.buttonCellDown,.buttonCellLeft,.buttonCellRight{
+
+background-repeat: no-repeat;
+background-size: 100px;
+background-position: center;
+}
+.buttonCellUp{}.buttonCellDown{}.buttonCellLeft{}.buttonCellRight{}
+.buttonCellBlank,.buttonCellUp,.buttonCellDown,.buttonCellLeft,.buttonCellRight{
+display: table-cell;
+padding: 0px 0px;
+:hover{
+padding: 1px 1px;
+}
+}
+.buttonCellLeft,.buttonCellRight,.buttonCellDown,.buttonCellUp{
+background-color: orange;
+}
+.buttonCellBlank{
+background-color: black;
+}
+
+}
+span.lin :hover{
+background-color: orange;
+color: black;
+}
+span : hover{
+background-color: black;
+color: white;
+}
+.extra{
+color: black;
+background-color: white;
+}
+.rtable,.rtable2,.rtable3,.buttonTable,tabletable{
+display: table;
+}
+.tableRow,.tableRow1,.rtable2row,.rtable3Row,.buttonRow,tabletablerow{
+display: table-row;
+}
+.tableCell,.tableCell1{
+display: table-cell;
+background-color: white;
+padding: 6px 20px;
+font-family: Courier;
+}
+.rtable2Cell1, .rtable2Cell2,.rtable2Cell3{
+display: table-cell;
+padding: 6px 50px;
+}
+.rtable2Cell1{
+background-color: orange;
+}
+.rtable2Cell2{
+color: orange;
+background-color: white;
+}
+.rtable2Cell3{
+background-color: orange;
+}
+.rtable3Cell{
+display: table-cell;
+padding: 6px 1px;
+}
+
+
+nav{ width:960px; margin:0 auto;}
+a.body {
+color: orange;
+text-decoration: none;
+}
+#Ni,#Wi,#Fa,#Ho{
+text-decoration: none;
+font-family: Courier;
+font-size: 25px;
+}
+#Ni{
+color:orange;
+}
+#Wi{
+color:black;
+}
+#Fa{
+color:white;
+}
+#Ho{
+
+}
+
+body {
+background-image: url("Image9.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+}
+h1{
+background-color: white;
+ color: black;
+text-align: center;
+font-family: Courier;
+}
+p{
+color: white;
+font-family: Courier;
+font-size: 20px;
+}
+ul, td{
+font-family: Courier;
+color: white;
+}
+ul.Menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+li.Menu {
+display: inline;
+
+}
+#H{
+
+background-image: url("Image13.jpg");
+background-repeat: no-repeat;
+background-size: 250px;
+width: 100px;
+heights:20px;
+background-position: left top;
+padding: 20px 80px;
+}
+#F{
+background-image: url("Fall.jpg");
+background-repeat: no-repeat;
+background-size: 250px;
+width: 100px;
+heights:20px;
+background-position: left top;
+padding: 20px 80px;
+}
+#N{
+background-image: url("Image4.jpg");
+background-repeat: no-repeat;
+background-size: 250px;
+width: 100px;
+heights:20px;
+background-position: left top;
+padding: 20px 80px;
+}
+#W{
+background-image: url("Image5.jpg");
+background-repeat: no-repeat;
+background-size: 250px;
+width: 100px;
+heights:20px;
+background-position: left top;
+padding: 20px 80px;
+}
+ul.body{
+list-style-type: none;
+}
+#myCanvas{
+border: 1px solid #000000;
+}
+.accordion {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: Courier;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: white;
+  color: black; 
+}
+
+.panel {
+  padding: 18px;
+  display: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}

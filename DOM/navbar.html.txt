@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NavBar</title>
+<link rel="stylesheet" href="mystyle.css">
+</head><body>
+<nav>
+<ul class="Menu">
+<li class="Menu"id="H"><a  id="Ho" class="Menu"   href="Home.html">Home</a></li>
+<li class="Menu" id="F"><a  id="Fa" class="Menu" href="Fall.html">Fall</a></li>
+<li class="Menu" id="W"><a id="Wi" class="Menu" href="Winter.html">Winter</a></li>
+<li class="Menu" id="N"><a id="Ni" class="Menu" href="Night.html">Night</a></li>
+</ul>
+</nav>
+</body>
+</html>
