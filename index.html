@@ -11,6 +11,19 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            overflow: hidden; /* Prevent scrollbars on the video */
+        }
+
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translateX(-50%) translateY(-50%);
+            z-index: -1; /* Place the video behind other content */
         }
 
         header {
@@ -18,12 +31,17 @@
             color: #fff;
             text-align: center;
             padding: 10px;
+            z-index: 1; /* Place the content above the video */
         }
 
         section {
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to improve readability */
+            border-radius: 10px; /* Optional: Add rounded corners to the content */
+            margin-top: 50px; /* Optional: Adjust the top margin to avoid overlap with header */
+            z-index: 1; /* Place the content above the video */
         }
 
         footer {
@@ -31,10 +49,17 @@
             color: #fff;
             text-align: center;
             padding: 10px;
+            z-index: 1; /* Place the content above the video */
         }
     </style>
 </head>
 <body>
+
+    <video autoplay loop muted>
+        <source src="yvideo.mp4" type="video/mp4">
+        <!-- Add additional source elements for different video formats if needed -->
+        Your browser does not support the video tag.
+    </video>
 
     <header>
         <h1>Your Website</h1>
@@ -44,7 +69,6 @@
     <section>
         <h2>About Us</h2>
         <p>This is a basic HTML file template. You can modify it to create your website.</p>
-        <a href="DOM/Home.html"> First_Website </a>
     </section>
 
     <section>
