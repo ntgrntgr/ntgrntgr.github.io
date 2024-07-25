@@ -1,21 +1,9 @@
 const box = {x: 1, y: 1, length: 10, width: 10}; 
-function animate(){
-init();
-setInterval(moveRight,5);
-while(box.x>1){
-moveRight();
-
-
-
-}
-
-}
 function init(){
 
 drawbox();
 
 }
-
 function moveRight(){
 box.x+=5;
 if(box.x>198){
@@ -102,18 +90,7 @@ var acc = document.getElementsByClassName("accordion");
     }
 
 
-function allowDrop(ev) {
-  ev.preventDefault();
-}
 
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-}
 
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.getElementById(data));
-}
 
 
